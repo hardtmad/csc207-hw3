@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 
 public class StringUtils
 {
+  /* Part A */
   public static String[]
     splitAt (String str, char ch)
   {
@@ -40,9 +41,9 @@ public class StringUtils
     return strArrayTruncated;
   } // splitAt (String, char)
 
+  /* Part B */
   public static void
     printValues (PrintWriter pen, String[] array)
-
   {
     int length = array.length;
     if (length == 0)
@@ -118,8 +119,7 @@ public class StringUtils
 
   } // splitCSV (String)
 
-
- 
+  /* Part C */
   public static String
     deLeet (String str)
   {
@@ -167,6 +167,7 @@ public class StringUtils
     return newStr;
   }// deLeet (String)
 
+  /* Part D */
   /*
    * I found the code for this method from an isVowel method on Stack Overflow
    * http

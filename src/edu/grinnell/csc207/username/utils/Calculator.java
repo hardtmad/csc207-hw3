@@ -5,16 +5,16 @@ import java.lang.String;
 
 public class Calculator
 {
-  
-  /*Part E*/
+
+  /* Part E */
   public static BigInteger
     eval0 (String str)
   {
     int strLength = str.length ();
     char ch;
     BigInteger eval = BigInteger.valueOf (0);
-    eval = BigInteger.valueOf(str.charAt(0) - '0');
-    
+    eval = BigInteger.valueOf (str.charAt (0) - '0');
+
     int number = 0;
     char operation = 0;
 
@@ -52,11 +52,10 @@ public class Calculator
                 default:
                   break;
               } // switch
-            
+
             System.out.println ("i " + i + " eval " + eval);
           } // else
 
-       
       }
 
     return eval;
